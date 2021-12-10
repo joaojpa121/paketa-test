@@ -18,7 +18,7 @@ export class User {
   @Column()
   name: string;
 
-  @Column()
+  @Column({ nullable: true })
   birthDate: string;
 
   @BeforeInsert() async hashPassword() {

@@ -35,7 +35,7 @@ export class User1639017692219 implements MigrationInterface {
           {
             name: 'birthDate',
             type: 'date',
-            isNullable: false,
+            isNullable: true,
           },
         ],
       }),
